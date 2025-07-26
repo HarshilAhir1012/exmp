@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard | Rotaract Club of New LJIET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Rotaract Club</div>
+      <ul class="nav-links" id="navLinks"></ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="admin-dashboard fade-in">
+      <aside class="admin-sidebar">
+        <ul>
+          <li><a href="#"><i class="fa fa-users"></i> Members</a></li>
+          <li><a href="#"><i class="fa fa-donate"></i> Donations</a></li>
+          <li><a href="#"><i class="fa fa-calendar"></i> Events</a></li>
+          <li><a href="#"><i class="fa fa-tasks"></i> Projects</a></li>
+          <li><a href="#"><i class="fa fa-bullhorn"></i> Announcements</a></li>
+        </ul>
+      </aside>
+      <section class="admin-main">
+        <div class="admin-summary">
+          <div class="summary-card">
+            <h3>Members</h3>
+            <p>120</p>
+          </div>
+          <div class="summary-card">
+            <h3>Events</h3>
+            <p>18</p>
+          </div>
+          <div class="summary-card">
+            <h3>Projects</h3>
+            <p>7</p>
+          </div>
+          <div class="summary-card">
+            <h3>Donations</h3>
+            <p>&#8377; 50,000</p>
+          </div>
+        </div>
+        <div class="admin-table-container">
+          <h3>Member List</h3>
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Email</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Harshil Patel</td>
+                <td>President</td>
+                <td>harshil@email.com</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td>Priya Shah</td>
+                <td>Secretary</td>
+                <td>priya@email.com</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td>Rahul Mehta</td>
+                <td>Member</td>
+                <td>rahul@email.com</td>
+                <td>Inactive</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Rotaract Club of New LJIET. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 

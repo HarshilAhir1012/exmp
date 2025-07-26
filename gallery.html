@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Rotaract Club of NLJ Institute of Engineering & Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Rotaract Club of NLJIET</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="cta-btn">Members Login</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="gallery-filter fade-in">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="projects">Projects</button>
+      <button class="filter-btn" data-filter="social">Social Events</button>
+      <button class="filter-btn" data-filter="campaigns">Campaigns</button>
+    </section>
+    <section class="gallery-grid fade-in" id="galleryGrid">
+      <!-- Placeholder images with categories -->
+      <div class="gallery-item" data-category="projects">
+        <img src="https://via.placeholder.com/300x200?text=Project+1" alt="Project 1">
+      </div>
+      <div class="gallery-item" data-category="social">
+        <img src="https://via.placeholder.com/300x200?text=Social+1" alt="Social 1">
+      </div>
+      <div class="gallery-item" data-category="campaigns">
+        <img src="https://via.placeholder.com/300x200?text=Campaign+1" alt="Campaign 1">
+      </div>
+      <div class="gallery-item" data-category="projects">
+        <img src="https://via.placeholder.com/300x200?text=Project+2" alt="Project 2">
+      </div>
+      <div class="gallery-item" data-category="social">
+        <img src="https://via.placeholder.com/300x200?text=Social+2" alt="Social 2">
+      </div>
+      <div class="gallery-item" data-category="campaigns">
+        <img src="https://via.placeholder.com/300x200?text=Campaign+2" alt="Campaign 2">
+      </div>
+    </section>
+    <!-- Modal/Lightbox -->
+    <div class="modal" id="imgModal">
+      <span class="close-modal" id="closeModal">&times;</span>
+      <img class="modal-content" id="modalImg" src="" alt="">
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Rotaract Club of NLJ Institute of Engineering & Technology. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 
